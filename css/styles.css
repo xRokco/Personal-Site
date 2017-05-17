@@ -1,0 +1,33 @@
+body {
+	font-family: 'Muli';
+	font-weight: 300;
+}
+
+.container {
+	max-width: 1080px;
+}
+
+.hiddenlist {
+	list-style: none;
+	font-size: 1.3em;
+}
+
+.divider {
+	border: 1px solid #CC7F0F;
+	margin: 1rem;
+	width: 95%;
+}
+
+a {
+	color: #CC7F0F;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+p {
+	font-weight: 400;
+}
+
+h4, .hiddenlist {
+	font-family: 'Ovo';	
+}
