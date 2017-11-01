@@ -10,6 +10,7 @@ body {
 .hiddenlist {
 	list-style: none;
 	font-size: 1.3em;
+	margin-bottom: 0px;
 }
 
 .divider {
@@ -30,4 +31,9 @@ p {
 
 h4, .hiddenlist {
 	font-family: 'Ovo';	
+}
+
+.six {
+	min-width: 130px;
+	margin-left: none;
 }
