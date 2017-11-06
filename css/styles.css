@@ -1,6 +1,7 @@
 body {
 	font-family: 'Muli';
 	font-weight: 300;
+	overflow-x: hidden;
 }
 
 .container {
@@ -9,8 +10,10 @@ body {
 
 .hiddenlist {
 	list-style: none;
+}
+
+.summary, .latter, .former {
 	font-size: 1.3em;
-	margin-bottom: 0px;
 }
 
 .divider {
@@ -33,7 +36,98 @@ h4, .hiddenlist {
 	font-family: 'Ovo';	
 }
 
-.six {
-	min-width: 130px;
-	margin-left: none;
+.left-triangle{
+    height: 800px;
+    width: 280px;
+    background-color: rgba(204, 127, 15, 0.4);
+    top:-400px;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+    transform: rotate(70deg);
+}
+
+/*.right-triangle{
+    height: 800px;
+    width: 280px;
+    background-color: rgba(204, 127, 15, 0.4);
+    bottom:-400px;
+    position: fixed;
+    right: 0px;
+    z-index: 2;
+    transform: rotate(70deg);
+}*/
+
+#content {
+	margin-top: 15%;
+	margin-bottom: 20%;
+}
+
+@media screen and (max-width: 1280px) {
+	#content {
+		margin-top: 20%;
+		margin-bottom: 20%;
+	}
+
+
+	.paragraph {
+		margin-top: 5%;
+		width: 45% !important;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.latter, .former {
+		font-size: 1.83vw;
+	}
+
+	.paragraph {
+		margin-top: 5%;
+		width: 55% !important;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	#content {
+		margin-top: 25%;
+		margin-bottom: 20%;
+	}
+}
+
+@media screen and (max-width: 810px) {
+	#content {
+		margin-top: 35%;
+		margin-bottom: 20%;
+	}
+
+	.latter {
+		width: 51% !important;
+		margin-left: 0;
+	}
+
+	.former .hiddenlist {
+		margin-bottom: 0;
+	}
+
+	.former, .latter {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.info {
+		width: 41% !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#content {
+		margin-top: 42%;
+		margin-bottom: 22%;
+	}
+
+	.info, .paragraph {
+		width: 100% !important;
+		margin-left:0;
+	}
 }
