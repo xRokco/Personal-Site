@@ -1,0 +1,39 @@
+.header {
+	margin-top: 10%;
+	margin-bottom: 20px;
+}
+
+.title{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+p{
+	margin: 0px;
+}
+
+.subtitle{
+	text-align:center;
+	border-bottom:1px solid lightgrey;
+	border-top:1px solid lightgrey;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+@media print {
+	.page-break	{ 
+		display: block;
+		page-break-before: always;
+		height: 20mm;
+	}	
+
+	.header {
+		margin-top: 20mm;
+	}
+
+	.subtitle {
+		max-width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
