@@ -1,11 +1,13 @@
-I wrote a script that pulls a specified The Guardian article and then text-to-speaches it using Amazon Polly.
+<p>I wrote a script that pulls a specified The Guardian article and then text-to-speaches it using Amazon Polly.</p>
 
-Result here - 
+<p>Result here - </p>
 <audio controls>
   <source src="result.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
+<p>Code -</p>
+<pre>
 <code>
 # coding: utf-8
 import subprocess
@@ -49,3 +51,13 @@ execute_command = 'rm ' + file_names
 print('Removing temporary files: ' + execute_command)
 subprocess.call(execute_command, shell=True)
 </code>
+</pre>
+
+<style type="text/css">
+  pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
+</style>
