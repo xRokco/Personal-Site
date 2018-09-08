@@ -1,0 +1,51 @@
+I wrote a script that pulls a specified The Guardian article and then text-to-speaches it using Amazon Polly.
+
+Result here - 
+<audio controls>
+  <source src="result.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<code>
+# coding: utf-8
+import subprocess
+import codecs
+from bs4 import BeautifulSoup
+import urllib.request
+
+f = urllib.request.urlopen("https://www.theguardian.com/technology/2018/sep/08/donald-trump-threatens-267bn-more-tariffs-on-chinese-goods").read()
+soup = BeautifulSoup(f, features="html.parser")
+div = soup.find("div", {"class": "content__article-body"})
+ps = div.findChildren("p", recursive=False)
+
+cnt = 0
+file_names = ''
+
+for line in ps:
+    rendered = ''
+    text = line.text
+    text = text.replace('"', '\\"')
+    text = text.replace('$', '\\$')
+
+    if '\r\n' == text:
+        #A pause after a paragraph
+        rendered = '<speak><break time= "2s"/></speak>'
+    else:
+        #A pause after a sentence
+        rendered = '<speak><amazon:effect name=\\"drc\\">' + text.strip() + '<break time=\\"1s\\"/></amazon:effect></speak>'
+    
+    file_name = ' polly_out'+str(cnt)+'.mp3'
+    cnt += 1
+    command = 'aws polly synthesize-speech --text-type ssml --output-format "mp3" --voice-id "Salli" --text "'+rendered+'" '+file_name
+    file_names += file_name
+    print(command)
+    subprocess.call(command, shell=True)
+
+print(file_names)
+execute_command = 'cat ' + file_names + '>result.mp3'
+subprocess.call(execute_command, shell=True)
+
+execute_command = 'rm ' + file_names
+print('Removing temporary files: ' + execute_command)
+subprocess.call(execute_command, shell=True)
+</code>
