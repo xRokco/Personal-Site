@@ -1,0 +1,167 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+a.darken {
+    display: block;
+    padding: 0;
+}
+
+a.darken img {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+
+}
+
+.image {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image img {
+    height: 300px;
+}
+
+.itemsContainer {
+    position:relative;
+    float:left;
+
+    margin: 20px;
+    border: 5px solid black;
+}
+
+.itemsContainer:hover .play{
+    display:block;
+}
+
+.itemsContainer:hover a.darken img{
+    opacity: 0.8;
+}
+
+.play{
+    position : absolute;
+    display:none;
+    top:45%; 
+    width:50px;
+    margin:0 auto;
+    left:0px;
+    right:0px;
+    z-index:100
+} 
+
+#title {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+nav {
+    margin: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Quattrocento', sans-serif;
+    font-weight: 400;
+}
+
+#logo h1 {
+    font-size: 6.0rem;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Muli', sans-serif;  
+}
+
+a {
+    color: #1EAEDB;
+    font-family: 'Muli', sans-serif; 
+}
+
+.button {
+    margin: 4px 2px;
+    width: 300px;
+}
+
+
+#id01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#heading {
+    text-align: center;
+}
+
+#subheading {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subheading h3 {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+#desc {
+    margin-top: 10px;
+}
+
+.selected {
+    background-color: #1EAEDB;   
+}
+
+@media (max-width: 1200px) {
+    .button {
+        width: 600px;
+        height: 60px;
+        font-size: 1.2em;
+        padding-top: 10px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    #desc p {
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 549px) {
+    #logo h1 {
+        text-align: center;
+    }
+
+    #desc p {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+

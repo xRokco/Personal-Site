@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Matt's Film Site</title>
+        <link href="skeleton.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href='https://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Muli:400,700' rel='stylesheet' type='text/css'>
+        <script src="smooth.js"></script>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <header>
+            <nav class="row">
+                <div class="four columns" id="logo">
+                    <h1>Matt's</h1>
+                    <h1>Film</h1>
+                    <h1>Site</h1>
+                </div>
+                <div class="eight columns" id="desc">
+                    <p>click a genre or category to get a list of movies</p>
+
+                    <p>link to specific category by copying the page url after you click the category button</p>
+
+                    <p>you can suggest movies or entire categories to add by <a href="mailto:matt@rokco.org?subject=MovieRecs Suggestion">email</a></p>
+
+                    <p>read <a href="about.html">about</a> this project</p>
+                </div>
+            </nav>
+        </header>
+        <div id="title"></div>
+        <div id="heading"></div>
+        <div id="subheading"></div>
+        <div id="id01"></div>
+
+        <script>
+            var xmlhttp = new XMLHttpRequest();
+            var url = "movies.json";
+            var myArr;
+
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    myArr = JSON.parse(xmlhttp.responseText);
+                    catlist(myArr);
+                }
+            };
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+
+            function catlist(arr) {
+                var out = "";
+                var i;
+                for(i = 0; i < arr.categories.length; i++) {
+                    if(arr.categories[i].name && arr.categories[i].name != ""){
+                        out += '<a title="' + arr.categories[i].description + '" id="code' + i + '" data-scroll href="#id' + i + '" class="button" onclick="movielist(' + i + ')">' + arr.categories[i].name + '</a>';
+                    }
+                }
+                document.getElementById("title").innerHTML = out;
+                linker();
+            }
+
+            function linker() {
+                if(window.location.hash) {
+                    movielist(window.location.hash.slice(3));
+                    smoothScroll.animateScroll(
+                        '#id' + window.location.hash.slice(3)
+                    );
+                }
+            }
+
+            function movielist(j) {
+                if(document.getElementsByClassName("selected")[0]){
+                    document.getElementsByClassName("selected")[0].className = "button";
+                }
+                document.getElementById("code" + j).className += " selected";
+                var out = '';
+                var heading = '<h1 id="id' + j + '">' + myArr.categories[j].name + '</h1>';
+                document.getElementById("heading").innerHTML = heading;
+                document.getElementById("subheading").innerHTML = '<h3>' + myArr.categories[j].description + '</h3>';
+                for(i = 0; i < myArr.categories[j].movies.length; i++) {
+                    if(myArr.categories[j].movies[i].name && myArr.categories[j].movies[i].name != ""){
+                        out += '<div data-scroll class="itemsContainer"><div class="image"> <a href="http://www.imdb.com/title/' + myArr.categories[j].movies[i].link + '" class="darken"><img alt="' + myArr.categories[j].movies[i].name + '" title="' + myArr.categories[j].movies[i].name + ' (' + myArr.categories[j].movies[i].year + ')" src="images/' + myArr.categories[j].movies[i].poster + '" /></a></div><div class="play"><a href="' + myArr.categories[j].movies[i].link + '"></a></div></div>';
+                    }
+                }
+                document.getElementById("id01").innerHTML = out;
+            }
+        </script>
+        <footer>
+            <script>
+                smoothScroll.init();
+            </script>
+            <!-- This site was built for Marita, who listened to me talk about servers, Plex, and movies while lying on a beach at a music festival in Spain -->
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,1180 @@
+{
+    "categories": [
+        {
+            "name": "Modern, Original Sci-fi",
+            "code": "modscifi",
+            "description": "Sci-fi movies from this millennium that aren't remakes, reboots or based on a comic book (except for in exceptional cases)",
+            "movies": [
+                {
+                    "name": "10 Cloverfield Lane",
+                    "link": "tt1179933",
+                    "year": 2016,
+                    "poster": "10_cloverfield_lane.jpg"
+                },
+                {
+                    "name": "28 Days Later...",
+                    "link": "tt0289043",
+                    "year": 2002,
+                    "poster": "28_days_later.jpg"
+                },
+                {
+                    "name": "Children of Men",
+                    "link": "tt0206634",
+                    "year": 2006,
+                    "poster": "children_of_men.jpg"
+                },
+                {
+                    "name": "Cloverfield",
+                    "link": "tt1060277",
+                    "year": 2008,
+                    "poster": "cloverfield.jpg"
+                },
+                {
+                    "name": "Edge of Tomorrow",
+                    "link": "tt1631867",
+                    "year": 2014,
+                    "poster": "edge_of_tomorrow.jpg"
+                },
+                {
+                    "name": "Europa Report",
+                    "link": "tt2051879",
+                    "year": 2013,
+                    "poster": "europa_report.jpg"
+                },
+                {
+                    "name": "Ex Machina",
+                    "link": "tt0470752",
+                    "year": 2014,
+                    "poster": "ex_machina.jpg"
+                },
+                {
+                    "name": "Her",
+                    "link": "tt1798709",
+                    "year": 2013,
+                    "poster": "her.jpg"
+                },
+                {
+                    "name": "Inception",
+                    "link": "tt1375666",
+                    "year": 2010,
+                    "poster": "inception.jpg"
+                },
+                {
+                    "name": "Interstellar",
+                    "link": "tt0816692",
+                    "year": 2014,
+                    "poster": "interstellar.jpg"
+                },
+                {
+                    "name": "Mad Max: Fury Road",
+                    "link": "tt1392190",
+                    "year": 2015,
+                    "poster": "mad_max_fury_road.jpg"
+                },
+                {
+                    "name": "Moon",
+                    "link": "tt1182345",
+                    "year": 2009,
+                    "poster": "moon.jpg"
+                },
+                {
+                    "name": "Pacific Rim",
+                    "link": "tt1663662",
+                    "year": 2013,
+                    "poster": "pacific_rim.jpg"
+                },
+                {
+                    "name": "Predestination",
+                    "link": "tt2397535",
+                    "year": 2014,
+                    "poster": "predestination.jpg"
+                },
+                {
+                    "name": "Snowpiercer",
+                    "link": "tt1706620",
+                    "year": 2013,
+                    "poster": "snowpiercer.jpg"
+                },
+                {
+                    "name": "Source Code",
+                    "link": "tt0945513",
+                    "year": 2011,
+                    "poster": "source_code.jpg"
+                },
+                {
+                    "name": "Sunshine",
+                    "link": "tt0448134",
+                    "year": 2007,
+                    "poster": "sunshine.jpg"
+                },
+                {
+                    "name": "The Lobster",
+                    "link": "tt3464902",
+                    "year": 2015,
+                    "poster": "the_lobster.jpg"
+                },
+                {
+                    "name": "The Martian",
+                    "link": "tt3659388",
+                    "year": 2015,
+                    "poster": "the_martian.jpg"
+                },
+                {
+                    "name": "The Prestige",
+                    "link": "tt0482571",
+                    "year": 2006,
+                    "poster": "the_prestige.jpg"
+                },
+                {
+                    "name": "Under the Skin",
+                    "link": "tt1441395",
+                    "year": 2013,
+                    "poster": "under_the_skin.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Classic Sci-fi",
+            "code": "oldscifi",
+            "description": "Acclaimed sci-fi from before the year 2000",
+            "movies": [
+                {
+                    "name": "12 Monkeys",
+                    "link": "tt0114746",
+                    "year": 1995,
+                    "poster": "12_monkeys.jpg"
+                },
+                {
+                    "name": "2001: A Space Odyssey",
+                    "link": "tt0062622",
+                    "year": 1968,
+                    "poster": "2001_a_space_odyssey.jpg"
+                },
+                {
+                    "name": "The Abyss",
+                    "link": "tt0096754",
+                    "year": 1989,
+                    "poster": "the_abyss.jpg"
+                },
+                {
+                    "name": "Akira",
+                    "link": "tt0094625",
+                    "year": 1988,
+                    "poster": "akira.jpg"
+                },
+                {
+                    "name": "Alien",
+                    "link": "tt0078748",
+                    "year": 1979,
+                    "poster": "alien.jpg"
+                },
+                {
+                    "name": "Aliens",
+                    "link": "tt0090605",
+                    "year": 1986,
+                    "poster": "aliens.jpg"
+                },
+                {
+                    "name": "Blade Runner",
+                    "link": "tt0083658",
+                    "year": 1982,
+                    "poster": "blade_runner.jpg"
+                },
+                {
+                    "name": "Brazil",
+                    "link": "tt0088846",
+                    "year": 1985,
+                    "poster": "brazil.jpg"
+                },
+                {
+                    "name": "A Clockwork Orange",
+                    "link": "tt0066921",
+                    "year": 1971,
+                    "poster": "a_clockwork_orange.jpg"
+                },
+                {
+                    "name": "Star Wards Episode V: The Empire Strikes Back",
+                    "link": "tt0080684",
+                    "year": 1980,
+                    "poster": "star_wars_v.jpg"
+                },
+                {
+                    "name": "The Fly",
+                    "link": "tt0091064",
+                    "year": 1986,
+                    "poster": "the_fly.jpg"
+                },
+                {
+                    "name": "Mad Max",
+                    "link": "tt0079501",
+                    "year": 1979,
+                    "poster": "mad_max.jpg"
+                },
+                {
+                    "name": "Mad Max 2: The Road Warrior",
+                    "link": "tt0082694",
+                    "year": 1981,
+                    "poster": "mad_max_2_the_road_warrior.jpg"
+                },
+                {
+                    "name": "Predator",
+                    "link": "tt0093773",
+                    "year": 1987,
+                    "poster": "predator.jpg"
+                },
+                {
+                    "name": "Star Wars Episode VI: Return of the Jedi",
+                    "link": "tt0086190",
+                    "year": 1983,
+                    "poster": "star_wars_vi.jpg"
+                },
+                {
+                    "name": "Solaris",
+                    "link": "tt0069293",
+                    "year": 1972,
+                    "poster": "solaris.jpg"
+                },
+                {
+                    "name": "Stalker",
+                    "link": "tt0079944",
+                    "year": 1979,
+                    "poster": "stalker.jpg"
+                },
+                {
+                    "name": "Star Wars Episode IV: A New Hope",
+                    "link": "tt0076759",
+                    "year": 1977,
+                    "poster": "star_wars_iv.jpg"
+                },
+                {
+                    "name": "Starship Troopers",
+                    "link": "tt0120201",
+                    "year": 1997,
+                    "poster": "starship_troopers.jpg"
+                },
+                {
+                    "name": "The Terminator",
+                    "link": "tt0088247",
+                    "year": 1984,
+                    "poster": "the_terminator.jpg"
+                },
+                {
+                    "name": "Terminator 2: Judgement Day",
+                    "link": "tt0103064",
+                    "year": 1991,
+                    "poster": "terminator_2_judgement_day.jpg"
+                },
+                {
+                    "name": "They Live",
+                    "link": "tt0096256",
+                    "year": 1988,
+                    "poster": "they_live.jpg"
+                },
+                {
+                    "name": "The Thing",
+                    "link": "tt0084787",
+                    "year": 1982,
+                    "poster": "the_thing.jpg"
+                },
+                {
+                    "name": "Total Recall",
+                    "link": "tt0100802",
+                    "year": 1990,
+                    "poster": "total_recall.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Movies about music",
+            "code": "music",
+            "description": "Movies and documentaries about music and musicians",
+            "movies": [
+                {
+                    "name": "Good Vibrations",
+                    "link": "tt1920945",
+                    "year": 2012,
+                    "poster": "good_vibrations.jpg"
+                },
+                {
+                    "name": "Amy",
+                    "link": "tt2870648",
+                    "year": 2015,
+                    "poster": "amy.jpg"
+                },
+                {
+                    "name": "Inside Llewyn Davis",
+                    "link": "tt2042568",
+                    "year": 2013,
+                    "poster": "inside_llewyn_davis.jpg"
+                },
+                {
+                    "name": "Love & Mercy",
+                    "link": "tt0903657",
+                    "year": 2014,
+                    "poster": "love_and_mercy.jpg"
+                },
+                {
+                    "name": "Once",
+                    "link": "tt0907657",
+                    "year": 2007,
+                    "poster": "once.jpg"
+                },
+                {
+                    "name": "The Pianist",
+                    "link": "tt0253474",
+                    "year": 2002,
+                    "poster": "the_pianist.jpg"
+                },
+                {
+                    "name": "Scott Pilgrum vs. the World",
+                    "link": "tt0446029",
+                    "year": 2010,
+                    "poster": "scott_pilgrim_vs_the_world.jpg"
+                },
+                {
+                    "name": "Searching for Sugar Man",
+                    "link": "tt2125608",
+                    "year": 2012,
+                    "poster": "searching_for_sugar_man.jpg"
+                },
+                {
+                    "name": "Straight Outta Compton",
+                    "link": "tt1398426",
+                    "year": 2015,
+                    "poster": "straight_outta_compton.jpg"
+                },
+                {
+                    "name": "Walk the Line",
+                    "link": "tt0358273",
+                    "year": 2005,
+                    "poster": "walk_the_line.jpg"
+                },
+                {
+                    "name": "Whiplash",
+                    "link": "tt2582802",
+                    "year": 2014,
+                    "poster": "whiplash.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Sad & harrowing movies",
+            "code": "sad",
+            "description": "Movies to leave you distraught and fragile",
+            "movies": [
+                {
+                    "name": "Schindler's List",
+                    "link": "tt0108052",
+                    "year": 1993,
+                    "poster": "schindlers_list.jpg"
+                },
+                {
+                    "name": "Requiem for a Dream",
+                    "link": "tt0180093",
+                    "year": 2000,
+                    "poster": "requiem_for_a_dream.jpg"
+                },
+                {
+                    "name": "Calvary",
+                    "link": "tt2234003",
+                    "year": 2014,
+                    "poster": "calvary.jpg"
+                },
+                {
+                    "name": "Brokeback Mountain",
+                    "link": "tt0388795",
+                    "year": 2005,
+                    "poster": "brokeback_mountain.jpg"
+                },
+                {
+                    "name": "American History X",
+                    "link": "tt0120586",
+                    "year": 1998,
+                    "poster": "american_history_x.jpg"
+                },
+                {
+                    "name": "Brazil",
+                    "link": "tt0088846",
+                    "year": 1985,
+                    "poster": "brazil.jpg"
+                },
+                {
+                    "name": "Deliverance",
+                    "link": "tt0068473",
+                    "year": 1972,
+                    "poster": "deliverance.jpg"
+                },
+                {
+                    "name": "Doubt",
+                    "link": "tt0918927",
+                    "year": 2008,
+                    "poster": "doubt.jpg"
+                },
+                {
+                    "name": "Enter the Void",
+                    "link": "tt1191111",
+                    "year": 2009,
+                    "poster": "enter_the_void.jpg"
+                },
+                {
+                    "name": "Eternal Sunshine of the Spotless Mind",
+                    "link": "tt0338013",
+                    "year": 2004,
+                    "poster": "eternal_sunshine_of_the_spotless_mind.jpg"
+                },
+                {
+                    "name": "The Green Mile",
+                    "link": "tt0120689",
+                    "year": 1999,
+                    "poster": "the_green_mile.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Movies with war",
+            "code": "war",
+            "description": "Historical war movies, generally set on the front lines",
+            "movies": [
+                {
+                    "name": "Full Metal Jacket",
+                    "link": "tt0093058",
+                    "year": 1987,
+                    "poster": "full_metal_jacket.jpg"
+                },
+                {
+                    "name": "Saving Private Ryan",
+                    "link": "tt0120815",
+                    "year": 1998,
+                    "poster": "saving_private_ryan.jpg"
+                },
+                {
+                    "name": "The Thin Red Line",
+                    "link": "tt0120863",
+                    "year": 1998,
+                    "poster": "the_thin_red_line.jpg"
+                },
+                {
+                    "name": "Black Hawk Down",
+                    "link": "tt0265086",
+                    "year": 2001,
+                    "poster": "black_hawk_down.jpg"
+                },
+                {
+                    "name": "Apocalypse Now",
+                    "link": "tt0078788",
+                    "year": 1979,
+                    "poster": "apocalypse_now.jpg"
+                },
+                {
+                    "name": "Platoon",
+                    "link": "tt0091763",
+                    "year": 1986,
+                    "poster": "platoon.jpg"
+                },
+                {
+                    "name": "The Bridge on the River Kwai",
+                    "link": "tt0050212",
+                    "year": 1957,
+                    "poster": "the_bridge_on_the_river_kwai.jpg"
+                },
+                {
+                    "name": "Letters from Iwo Jima",
+                    "link": "tt0498380",
+                    "year": 2006,
+                    "poster": "letters_from_iwo_jima.jpg"
+                },
+                {
+                    "name": "Hacksaw Ridge",
+                    "link": "tt2119532",
+                    "year": 2016,
+                    "poster": "hacksaw_ridge.jpg"
+                },
+                {
+                    "name": "The Hurt Locker",
+                    "link": "tt0887912",
+                    "year": 2008,
+                    "poster": "the_hurt_locker.jpg"
+                },
+                {
+                    "name": "Braveheart",
+                    "link": "tt0112573",
+                    "year": 1995,
+                    "poster": "braveheart.jpg"
+                },
+                {
+                    "name": "Inglourious Basterds",
+                    "link": "tt0361748",
+                    "year": 2009,
+                    "poster": "inglourious_basterds.jpg"
+                },
+                {
+                    "name": "Das Boot",
+                    "link": "tt0082096",
+                    "year": 1981,
+                    "poster": "das_boot.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Long but worthwhile movies",
+            "code": "long",
+            "description": "What may seem like a slog, but worth getting through",
+            "movies": [
+                {
+                    "name": "The Lord of the Rings: The Return of the King",
+                    "link": "tt0167260",
+                    "year": 2003,
+                    "poster": "the_lord_of_the_rings_the_return_of_the_king.jpg"
+                },
+                {
+                    "name": "Lawrence of Arabia",
+                    "link": "tt0056172",
+                    "year": 1962,
+                    "poster": "lawrence_of_arabia.jpg"
+                },
+                {
+                    "name": "Ben-Hur",
+                    "link": "tt0052618",
+                    "year": 1959,
+                    "poster": "ben_hur.jpg"
+                },
+                {
+                    "name": "Seven Samurai",
+                    "link": "tt0047478",
+                    "year": 1956,
+                    "poster": "seven_samurai.jpg"
+                },
+                {
+                    "name": "The Godfather: Part II",
+                    "link": "tt0071562",
+                    "year": 1974,
+                    "poster": "the_godfather_ii.jpg"
+                },
+                {
+                    "name": "Schindler's List",
+                    "link": "tt0108052",
+                    "year": 1993,
+                    "poster": "schindlers_list.jpg"
+                },
+                {
+                    "name": "Magnolia",
+                    "link": "tt0175880",
+                    "year": 1999,
+                    "poster": "magnolia.jpg"
+                },
+                {
+                    "name": "Kingdom of Heaven",
+                    "link": "tt0320661",
+                    "year": 2005,
+                    "poster": "kingdom_of_heaven.jpg"
+                },
+                {
+                    "name": "The Deer Hunter",
+                    "link": "tt0077416",
+                    "year": 1978,
+                    "poster": "the_deer_hunter.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Movies kids can watch",
+            "code": "kids",
+            "description": "PG and below movies, you can pretty much include all Pixar movies too...",
+            "movies": [
+                {
+                    "name": "Toy Story",
+                    "link": "tt0114709",
+                    "year": 1995,
+                    "poster": "toy_story.jpg"
+                },
+                {
+                    "name": "Spirited Away",
+                    "link": "tt0245429",
+                    "year": 2001,
+                    "poster": "spirited_away.jpg"
+                },
+                {
+                    "name": "Finding Nemo",
+                    "link": "tt0266543",
+                    "year": 2003,
+                    "poster": "finding_nemo.jpg"
+                },
+                {
+                    "name": "WALL-E",
+                    "link": "tt0910970",
+                    "year": 2008,
+                    "poster": "wall_e.jpg"
+                },
+                {
+                    "name": "Babe",
+                    "link": "tt0112431",
+                    "year": 1995,
+                    "poster": "babe.jpg"
+                },
+                {
+                    "name": "Beauty and the Beast",
+                    "link": "tt0101414",
+                    "year": 1991,
+                    "poster": "beauty_and_the_beast.jpg"
+                },
+                {
+                    "name": "The Iron Giant",
+                    "link": "tt0129167",
+                    "year": 1999,
+                    "poster": "the_iron_giant.jpg"
+                },
+                {
+                    "name": "The Lego Movie",
+                    "link": "tt1490017",
+                    "year": 2014,
+                    "poster": "the_lego_movie.jpg"
+                },
+                {
+                    "name": "The Lion King",
+                    "link": "tt0110357",
+                    "year": 1994,
+                    "poster": "the_lion_king.jpg"
+                },
+                {
+                    "name": "Mary Poppins",
+                    "link": "tt0058331",
+                    "year": 1964,
+                    "poster": "mary_poppins.jpg"
+                },
+                {
+                    "name": "Shrek",
+                    "link": "tt0126029",
+                    "year": 2001,
+                    "poster": "shrek.jpg"
+                },
+                {
+                    "name": "The Sound of Music",
+                    "link": "tt0059742",
+                    "year": 1965,
+                    "poster": "the_sound_of_music.jpg"
+                },
+                {
+                    "name": "The Wizard of Oz",
+                    "link": "tt0032138",
+                    "year": 1939,
+                    "poster": "the_wizard_of_oz.jpg"
+                },
+                {
+                    "name": "E.T.: The Extra-Terrestrial",
+                    "link": "tt0083866",
+                    "year": 1982,
+                    "poster": "et_the_extra_terrestrial.jpg"
+                },
+                {
+                    "name": "Harry Potter and the Philosopher's Stone",
+                    "link": "tt0241527",
+                    "year": 2001,
+                    "poster": "harry_potter_and_the_philosophers_stone.jpg"
+                },
+                {
+                    "name": "James and the Giant Peach",
+                    "link": "tt0116683",
+                    "year": 1996,
+                    "poster": "james_and_the_giant_peach.jpg"
+                },
+                {
+                    "name": "Hugo",
+                    "link": "tt0970179",
+                    "year": 2011,
+                    "poster": "hugo.jpg"
+                },
+                {
+                    "name": "The Princess Bride",
+                    "link": "tt0093779",
+                    "year": 1987,
+                    "poster": "the_princess_bride.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Movies to watch before you die",
+            "code": "best",
+            "description": "A list of classic, important films",
+            "movies": [
+                {
+                    "name": "12 Monkeys",
+                    "link": "tt0114746",
+                    "year": 1995,
+                    "poster": "12_monkeys.jpg"
+                },
+                {
+                    "name": "2001: A Space Odyssey",
+                    "link": "tt0062622",
+                    "year": 1968,
+                    "poster": "2001_a_space_odyssey.jpg"
+                },
+                {
+                    "name": "Alien",
+                    "link": "tt0078748",
+                    "year": 1979,
+                    "poster": "alien.jpg"
+                },
+                {
+                    "name": "Apocalypse Now",
+                    "link": "tt0078788",
+                    "year": 1979,
+                    "poster": "apocalypse_now.jpg"
+                },
+                {
+                    "name": "Badlands",
+                    "link": "tt0069762",
+                    "year": 1973,
+                    "poster": "badlands.jpg"
+                },
+                {
+                    "name": "Blade Runner",
+                    "link": "tt0083658",
+                    "year": 1982,
+                    "poster": "blade_runner.jpg"
+                },
+                {
+                    "name": "Citizen Kane",
+                    "link": "tt0033467",
+                    "year": 1941,
+                    "poster": "citizen_kane.jpg"
+                },
+                {
+                    "name": "Fargo",
+                    "link": "tt0116282",
+                    "year": 1996,
+                    "poster": "fargo.jpg"
+                },
+                {
+                    "name": "The Godfather",
+                    "link": "tt0068646",
+                    "year": 1972,
+                    "poster": "the_godfather.jpg"
+                },
+                {
+                    "name": "Good Will Hunting",
+                    "link": "tt0119217",
+                    "year": 1997,
+                    "poster": "good_will_hunting.jpg"
+                },
+                {
+                    "name": "The Good, The Bad and The Ugly",
+                    "link": "tt0060196",
+                    "year": 1966,
+                    "poster": "the_good_the_bad_and_the_ugly.jpg"
+                },
+                {
+                    "name": "Lawrence of Arabia",
+                    "link": "tt0056172",
+                    "year": 1962,
+                    "poster": "lawrence_of_arabia.jpg"
+                },
+                {
+                    "name": "The Lord of the Rings: The Fellowship of the Ring",
+                    "link": "tt0120737",
+                    "year": 2001,
+                    "poster": "the_lord_of_the_rings_the_fellowship_of_the_ring.jpg"
+                },
+                {
+                    "name": "Magnolia",
+                    "link": "tt0175880",
+                    "year": 1999,
+                    "poster": "magnolia.jpg"
+                },
+                {
+                    "name": "No Country For Old Men",
+                    "link": "tt0477348",
+                    "year": 2007,
+                    "poster": "no_country_for_old_men.jpg"
+                },
+                {
+                    "name": "One Flew Over the Cuckoo's Nest",
+                    "link": "tt0073486",
+                    "year": 1975,
+                    "poster": "one_flew_over_the_cuckoos_nest.jpg"
+                },
+                {
+                    "name": "Pan's Labyrinth",
+                    "link": "tt0457430",
+                    "year": 2006,
+                    "poster": "pans_labyrinth.jpg"
+                },
+                {
+                    "name": "Psycho",
+                    "link": "tt0054215",
+                    "year": 1960,
+                    "poster": "psycho.jpg"
+                },
+                {
+                    "name": "Pulp Fiction",
+                    "link": "tt0110912",
+                    "year": 1994,
+                    "poster": "pulp_fiction.jpg"
+                },
+                {
+                    "name": "Requiem for a Dream",
+                    "link": "tt0180093",
+                    "year": 2000,
+                    "poster": "requiem_for_a_dream.jpg"
+                },
+                {
+                    "name": "Seven Samurai",
+                    "link": "tt0047478",
+                    "year": 1954,
+                    "poster": "seven_samurai.jpg"
+                },
+                {
+                    "name": "The Silence of the Lambs",
+                    "link": "tt0102926",
+                    "year": 1991,
+                    "poster": "the_silence_of_the_lambs.jpg"
+                },
+                {
+                    "name": "Taxi Driver",
+                    "link": "tt0075314",
+                    "year": 1976,
+                    "poster": "taxi_driver.jpg"
+                },
+                {
+                    "name": "The Will Be Blood",
+                    "link": "tt0469494",
+                    "year": 2007,
+                    "poster": "there_will_be_blood.jpg"
+                },
+                {
+                    "name": "The Thin Red Line",
+                    "link": "tt0120863",
+                    "year": 1998,
+                    "poster": "the_thin_red_line.jpg"
+                },
+                {
+                    "name": "The Thing",
+                    "link": "tt0084787",
+                    "year": 1982,
+                    "poster": "the_thing.jpg"
+                },
+                {
+                    "name": "The Usual Suspects",
+                    "link": "tt0114814",
+                    "year": 1995,
+                    "poster": "the_usual_suspects.jpg"
+                },
+                {
+                    "name": "Whiplash",
+                    "link": "tt2582802",
+                    "year": 2014,
+                    "poster": "whiplash.jpg"
+                },
+                {
+                    "name": "Zodiac",
+                    "link": "tt0443706",
+                    "year": 2007,
+                    "poster": "zodiac.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Matt's favourite movies",
+            "code": "favourite",
+            "description": "Some of my personal favourite movies",
+            "movies": [
+                {
+                    "name": "The Master",
+                    "link": "tt1560747",
+                    "year": 2012,
+                    "poster": "the_master.jpg"
+                },
+                {
+                    "name": "28 Days Later...",
+                    "link": "tt0289043",
+                    "year": 2002,
+                    "poster": "28_days_later.jpg"
+                },
+                {
+                    "name": "The Thing",
+                    "link": "tt0084787",
+                    "year": 1982,
+                    "poster": "the_thing.jpg"
+                },
+                {
+                    "name": "Brazil",
+                    "link": "tt0088846",
+                    "year": 1985,
+                    "poster": "brazil.jpg"
+                },
+                {
+                    "name": "The Lord of the Rings: The Fellowship of the Ring",
+                    "link": "tt0120737",
+                    "year": 2001,
+                    "poster": "the_lord_of_the_rings_the_fellowship_of_the_ring.jpg"
+                },
+                {
+                    "name": "Enemy",
+                    "link": "tt2316411",
+                    "year": 2013,
+                    "poster": "enemy.jpg"
+                },
+                {
+                    "name": "Leon: The Professional",
+                    "link": "tt0110413",
+                    "year": 1994,
+                    "poster": "leon.jpg"
+                },
+                {
+                    "name": "Bicycle Thieves",
+                    "link": "tt0040522",
+                    "year": 1948,
+                    "poster": "bicycle_thieves.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Movies about loneliness",
+            "code": "lonely",
+            "description": "Movies that deal with or capture loneliness",
+            "movies": [
+                {
+                    "name": "Her",
+                    "link": "tt1798709",
+                    "year": 2013,
+                    "poster": "her.jpg"
+                },
+                {
+                    "name": "Chungking Express",
+                    "link": "tt0109424",
+                    "year": 1994,
+                    "poster": "chungking_express.jpg"
+                },
+                {
+                    "name": "Happiness",
+                    "link": "tt0147612",
+                    "year": 1998,
+                    "poster": "happiness.jpg"
+                },
+                {
+                    "name": "WALL-E",
+                    "link": "tt0910970",
+                    "year": 2008,
+                    "poster": "wall_e.jpg"
+                },
+                {
+                    "name": "Taxi Driver",
+                    "link": "tt0075314",
+                    "year": 1976,
+                    "poster": "taxi_driver.jpg"
+                },
+                {
+                    "name": "Solaris",
+                    "link": "tt0307479",
+                    "year": 1972,
+                    "poster": "solaris.jpg"
+                },
+                {
+                    "name": "Cast Away",
+                    "link": "tt0162222",
+                    "year": 2000,
+                    "poster": "cast_away.jpg"
+                },
+                {
+                    "name": "Lost in Translation",
+                    "link": "tt0335266",
+                    "year": 2003,
+                    "poster": "lost_in_translation.jpg"
+                },
+                {
+                    "name": "The Machinist",
+                    "link": "tt0361862",
+                    "year": 2004,
+                    "poster": "the_machinist.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Marvel Cinematic Universe",
+            "code": "marvel",
+            "description": "All currently released movies in the MCU, in order of release.",
+            "movies": [
+                {
+                    "name": "Iron Man",
+                    "link": "tt0371746",
+                    "year": 2008,
+                    "poster": "iron_man.jpg"
+                },
+                {
+                    "name": "The Incredible Hulk",
+                    "link": "tt0800080",
+                    "year": 2008,
+                    "poster": "the_incredible_hulk.jpg"
+                },
+                {
+                    "name": "Iron Man 2",
+                    "link": "tt1228705",
+                    "year": 2010,
+                    "poster": "iron_man_2.jpg"
+                },
+                {
+                    "name": "Thor",
+                    "link": "tt0800369",
+                    "year": 2011,
+                    "poster": "thor.jpg"
+                },
+                {
+                    "name": "Captain America: The First Avenger",
+                    "link": "tt0458339",
+                    "year": 2011,
+                    "poster": "captain_america_the_first_avenger.jpg"
+                },
+                {
+                    "name": "The Avengers",
+                    "link": "tt0848228",
+                    "year": 2012,
+                    "poster": "the_avengers.jpg"
+                },
+                {
+                    "name": "Iron Man 3",
+                    "link": "tt1300854",
+                    "year": 2013,
+                    "poster": "iron_man_3.jpg"
+                },
+                {
+                    "name": "Thor: The Dark World",
+                    "link": "tt1981115",
+                    "year": 2013,
+                    "poster": "thor_the_dark_world.jpg"
+                },
+                {
+                    "name": "Captain America: The Winter Soldier",
+                    "link": "tt1843866",
+                    "year": 2014,
+                    "poster": "captain_america_the_winter_soldier.jpg"
+                },
+                {
+                    "name": "Guardians of the Galaxy",
+                    "link": "tt2015381",
+                    "year": 2014,
+                    "poster": "guardians_of_the_galaxy.jpg"
+                },
+                {
+                    "name": "Avengers: Age of Ultron",
+                    "link": "tt2395427",
+                    "year": 2015,
+                    "poster": "avengers_age_of_ultron.jpg"
+                },
+                {
+                    "name": "Ant-Man",
+                    "link": "tt0478970",
+                    "year": 2015,
+                    "poster": "ant_man.jpg"
+                },
+                {
+                    "name": "Captain America: Civil War",
+                    "link": "tt3498820",
+                    "year": 2016,
+                    "poster": "captain_america_civil_war.jpg"
+                },
+                {
+                    "name": "Doctor Strange",
+                    "link": "tt1211837",
+                    "year": 2016,
+                    "poster": "doctor_strange.jpg"
+                },
+                {
+                    "name": "Guardians of the Galaxy Vol. 2",
+                    "link": "tt3896198",
+                    "year": 2017,
+                    "poster": "guardians_of_the_galaxy_vol_2.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Monster movies",
+            "code": "monster",
+            "description": "Monster movies, creature features, and movies with eldritch horrors",
+            "movies": [
+                {
+                    "name": "Jaws",
+                    "link": "tt0073195",
+                    "year": 1975,
+                    "poster": "jaws.jpg"
+                },
+                {
+                    "name": "Godzilla",
+                    "link": "tt0047034",
+                    "year": 1954,
+                    "poster": "godzilla.jpg"
+                },
+                {
+                    "name": "Cloverfield",
+                    "link": "tt1060277",
+                    "year": 2008,
+                    "poster": "cloverfield.jpg"
+                },
+                {
+                    "name": "The Host",
+                    "link": "tt0468492",
+                    "year": 2006,
+                    "poster": "the_host.jpg"
+                },
+                {
+                    "name": "The Mist",
+                    "link": "tt0884328",
+                    "year": 2007,
+                    "poster": "the_mist.jpg"
+                },
+                {
+                    "name": "The Thing",
+                    "link": "tt0084787",
+                    "year": 1982,
+                    "poster": "the_thing.jpg"
+                },
+                {
+                    "name": "The Fly",
+                    "link": "tt0091064",
+                    "year": 1986,
+                    "poster": "the_fly.jpg"
+                },
+                {
+                    "name": "Call of Cthulhu",
+                    "link": "tt0478988",
+                    "year": 2005,
+                    "poster": "call_of_cthulhu.jpg"
+                },
+                {
+                    "name": "Tremors",
+                    "link": "tt0100814",
+                    "year": 1990,
+                    "poster": "tremors.jpg"
+                },
+                {
+                    "name": "Trollhunter",
+                    "link": "tt1740707",
+                    "year": 2010,
+                    "poster": "trollhunter.jpg"
+                },
+                {
+                    "name": "Pacific Rim",
+                    "link": "tt1663662",
+                    "year": 2013,
+                    "poster": "pacific_rim.jpg"
+                },
+                {
+                    "name": "Hellboy",
+                    "link": "tt0167190",
+                    "year": 2004,
+                    "poster": "hellboy.jpg"
+                },
+                {
+                    "name": "Aliens",
+                    "link": "tt0090605",
+                    "year": 1986,
+                    "poster": "aliens.jpg"
+                },
+                {
+                    "name": "Jurassic Park",
+                    "link": "tt0107290",
+                    "year": 1993,
+                    "poster": "jurassic_park.jpg"
+                }
+            ]
+        }
+    ]
+}
