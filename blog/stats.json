@@ -1,0 +1,88 @@
+{
+  "assetsByChunkName": {
+    "path---beautiful-new-tab-initial-release": [
+      "path---beautiful-new-tab-initial-release-e64cc76d0dc8bde205e0.js",
+      "path---beautiful-new-tab-initial-release-e64cc76d0dc8bde205e0.js.map"
+    ],
+    "path---aws-tl-as": [
+      "path---aws-tl-as-23df74021e36b969c937.js",
+      "path---aws-tl-as-23df74021e36b969c937.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-874ccbc48b649575cafa.js",
+      "component---src-pages-index-js-874ccbc48b649575cafa.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---matts-film-site": [
+      "path---matts-film-site-cdc3d6042b79ba79f9df.js",
+      "path---matts-film-site-cdc3d6042b79ba79f9df.js.map"
+    ],
+    "path---isolation-and-cinema-trips": [
+      "path---isolation-and-cinema-trips-2deab22ba3df39ae8e90.js",
+      "path---isolation-and-cinema-trips-2deab22ba3df39ae8e90.js.map"
+    ],
+    "path---will-trade-unions-die-out": [
+      "path---will-trade-unions-die-out-632d021632bc9b43dd56.js",
+      "path---will-trade-unions-die-out-632d021632bc9b43dd56.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-0905b8fdcdf67d6b1d9e.js",
+      "component---src-templates-blog-post-js-0905b8fdcdf67d6b1d9e.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-50b3dbbf0857a3cef534.js",
+      "component---src-layouts-index-js-50b3dbbf0857a3cef534.js.map"
+    ],
+    "path---lets-talk-about-rounders-and-poker": [
+      "path---lets-talk-about-rounders-and-poker-caee12e8802e2fc779e7.js",
+      "path---lets-talk-about-rounders-and-poker-caee12e8802e2fc779e7.js.map"
+    ],
+    "path---index": [
+      "path---index-2b99933efe5b8d99082a.js",
+      "path---index-2b99933efe5b8d99082a.js.map"
+    ],
+    "path---my-new-new-tab-page": [
+      "path---my-new-new-tab-page-e74b0a2f7958fe453e1b.js",
+      "path---my-new-new-tab-page-e74b0a2f7958fe453e1b.js.map"
+    ],
+    "path---delivereview": [
+      "path---delivereview-17223f981f4b400f064e.js",
+      "path---delivereview-17223f981f4b400f064e.js.map"
+    ],
+    "commons": [
+      "commons-314f1a05138a38e3d879.js",
+      "build-js-styles.css",
+      "commons-314f1a05138a38e3d879.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---general-update-1": [
+      "path---general-update-1-002459b8d252cc2dfc8e.js",
+      "path---general-update-1-002459b8d252cc2dfc8e.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---im-learning-aws-deployment-services": [
+      "path---im-learning-aws-deployment-services-2998c75aebd9f5df97e1.js",
+      "path---im-learning-aws-deployment-services-2998c75aebd9f5df97e1.js.map"
+    ],
+    "path---ive-an-exam-tomorrow": [
+      "path---ive-an-exam-tomorrow-341112d856e0edac5969.js",
+      "path---ive-an-exam-tomorrow-341112d856e0edac5969.js.map"
+    ],
+    "app": [
+      "app-e520c0f5f0a74e892192.js",
+      "build-js-styles.css",
+      "app-e520c0f5f0a74e892192.js.map",
+      "build-js-styles.css.map"
+    ]
+  }
+}
